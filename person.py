@@ -1,6 +1,6 @@
 from tkinter import *
 # This is a Person class that will be used to create a person object for a person's card in a family tree application
-# The person class will be required to have the following attributes: first name
+# The person class will be required to have the following attributes: first name, last name, gender, date of birth, place of birth 
 
 # The following atttributes will be optional:
 class Person:
