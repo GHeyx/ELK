@@ -18,3 +18,13 @@ class Person:
     def __str__(self):
         return "Person: {} is"
 
+root = Tk()
+#Landing Page GUI
+offlineButton = Button(root, text="Offline Mode")
+onlineButton = Button(root, text="Go Online")
+# logo = PhotoImage(file="family tree\Application Images\temp logo.png")
+
+offlineButton.pack()
+onlineButton.pack()
+# logo.pack()
+root.mainloop()
